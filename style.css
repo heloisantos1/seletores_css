@@ -1,0 +1,51 @@
+/* seletor global= seleciona todos os elementos da pasta ou de determinado lugar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* seletor pela tag */
+p {
+    color: fuchsia;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+/* seletor pela classe */
+.paragrafo {
+    border: 1px solid cornflowerblue;
+    color: fuchsia;
+    margin-top: 1rem;
+}
+
+/* seletor pelo id */
+#titulo {
+    color: bisque;
+    margin-bottom: 1rem;
+}
+
+/* Seletor pelo atributo */
+input[type="password"] {
+    font-size: 3rem;
+}
+ /* Seletor por descendente */
+.login-form input {
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+
+/* Seletor de filhos doiretos */
+.login-form > input {
+    color: deeppink;
+    width: 10rem;
+}
+
+/* Pseudo-classes */
+.cadastro-form div:nth-of-type(2) {
+    background: #00f;
+}
